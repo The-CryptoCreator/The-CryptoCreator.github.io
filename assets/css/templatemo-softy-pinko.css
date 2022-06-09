@@ -168,6 +168,15 @@ body {
   margin-bottom: 20px;
 }
 
+.center-heading .section-title-whitebg {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000000;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
 .center-heading.colored .section-title {
   color: #ffffff;
 }
@@ -182,13 +191,29 @@ body {
   margin-bottom: 50px;
 }
 
+.center-text-whitebg {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
 .center-text.colored {
   color: #fff;
 }
 
 .center-text p {
   font-size: 15px;
-  color: rgb(105, 105, 105);
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+.center-text-whitebg p {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
   margin-bottom: 30px;
 }
 
@@ -315,7 +340,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #00316ea1;
+  background-color: rgb(9 0 79 / 44%);
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -334,7 +359,21 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #003087;
+  background-color: rgb(9 0 79 / 44%);
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+a.main-button-whitebg {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: rgb(9 83 168);
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -345,6 +384,11 @@ a.main-button {
 }
 
 a.main-button:hover {
+  background-color: #009cde;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a.main-button-whitebg:hover {
   background-color: #009cde;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -1404,7 +1448,7 @@ blog
 .blog-post-thumb h3 a {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #ffffff;
   letter-spacing: 0.25px;
   line-height: 26px;
   -webkit-transition: all 0.3s ease 0s;
@@ -1505,7 +1549,6 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #001833 -10%, #003087 60%);
   padding-top: 30px;
 }
 
