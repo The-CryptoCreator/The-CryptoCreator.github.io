@@ -1520,6 +1520,10 @@ contact
   margin-bottom: 28px;
 }
 
+.green {
+  color: #1dbf73
+}
+
 .contact-form input,
 .contact-form textarea {
   color: #777;
