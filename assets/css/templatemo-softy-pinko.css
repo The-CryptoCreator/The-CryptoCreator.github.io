@@ -1062,6 +1062,7 @@ parallax & home seperator
   font-weight: 400;
   font-size: 14px;
   color: #777;
+  height: 100px;
   letter-spacing: .75px;
 }
 
@@ -1290,6 +1291,7 @@ team
   padding-left: 25px;
   padding-right: 25px;
   margin-bottom: 25px;
+  height: 150px;
   font-weight: 400;
   font-size: 15px;
   color: #777;
