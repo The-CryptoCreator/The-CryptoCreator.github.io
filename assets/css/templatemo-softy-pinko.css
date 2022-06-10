@@ -485,15 +485,15 @@ header
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #02005a 0%,
-    #0e0185 29%,
+    #ffffff 0%,
+    #4d449c 29%,
     #0003bb 67%,
     #ffffff 100%
   );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: rgb(255, 255, 255);
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
